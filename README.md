@@ -1,5 +1,8 @@
 # Demo Stoploss implementation on Serum DEX
 
+**[TLDR skip to video demo](demoo)**
+
+
 Hi, thanks for reading this. First, what am I ?
 
 Well this is a targetted demo of a stoploss implementation for [Serum DEX](https://github.com/project-serum).
@@ -33,17 +36,17 @@ This demo will show the architecture of on chain/off chain components, a sequenc
 
 ![alt text](https://github.com/teddytomas/stoploss/blob/master/Architecture.png?raw=true)
 
-The **STOPLOSS** program is an onchain component. It communicates with the SRM DEX program. 
+**STOPLOSS** program is an onchain component. It communicates with the SRM DEX program. 
 
-The **ALGOSERVER** and Gui Server are off chain components responsible for continually scanning for new Stoploss orders and for executing when conditions are met
+**ALGOSERVER** and **GUI SERVER** are off chain components responsible for continually scanning for new Stoploss orders and for executing when conditions are met
 
-The **ALGO UI** is a component for managing stoplosses (and potentially other more complex order types)
+**ALGO UI** is a component for managing stoplosses (and potentially other more complex order types)
 
-The **STORE** is a Time Series database that captures market data and order details.
+**STORE** is a Time Series database that captures market data and order details.
 
-The **MKT DATA** is a listener for market data updates responsible for sending orderbook updates.
+**MKT DATA** is a listener for market data updates responsible for sending orderbook updates.
 
-green components are the ones developed independantly. 
+green components are the ones developed independantly.<br> 
 blue components are existing project Serum components.
 
 ### Sequence Diagram
@@ -52,4 +55,11 @@ blue components are existing project Serum components.
 ![alt text](https://github.com/teddytomas/stoploss/blob/master/stoploss-sequence.png?raw=true)
 
 
+
+## The DEMO
+
+
+this shows a screen capture of placing a stoploss order in Serum DEX UI and having the components above do their thing.
+
+Thanks for reading/viewing. I hope it is something interesting and useful for the Serum/solana ecosystem !!
 
