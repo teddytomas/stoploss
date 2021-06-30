@@ -6,7 +6,7 @@ Well this is a targetted demo of a stoploss implementation for [Serum DEX](https
 
 ## What is a stoploss ?
 
-A stoploss is an ordertype available on lots of centralised trading platforms. Its aim is to limit a trading positions losses. So for example imagine you are long and the price is going down, or vice versa short and price is rising. The stoploss is used as a risk management tool for when losses get too big to close the position. Example:
+A stoploss is an ordertype available on lots of centralised trading platforms. Its aim is to limit a trading positions losses. So for example imagine you are long and the price is going down, or vice versa short and price is rising. The stoploss is used as a risk management tool to close positions before losses get too big. Example:
 
 * user is long 1000 units current price is 10.00 and price is falling. User sets a SellStop order to trigger when price reaches 8.00. The SellStop sells 1000 units to close the position when the price falls to 8.00
 
