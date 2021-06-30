@@ -24,7 +24,7 @@ It also allows the user to forget about positions and allow automated components
 
 ## Why on Serum DEX ?
 
-Serum DEX is a Decentralised Limit Order Book built on [Solana](https://solana.com/). Decentralised orderbooks have many advantages, however one area thats harder to ma sudo apt install handbrakek sudo apt install handbrakenage is conditional execution, due to on chain compute resources.
+Serum DEX is a Decentralised Limit Order Book built on [Solana](https://solana.com/). Decentralised orderbooks have many advantages, however one area thats harder to menage is conditional execution, due to on chain compute resources.
 
 The stoploss is part of Serum roadmap and has been open for interested thirdparties to implement.
 
