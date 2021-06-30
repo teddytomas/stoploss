@@ -33,15 +33,21 @@ This demo will show the architecture of on chain/off chain components, a sequenc
 
 ![alt text](https://github.com/teddytomas/stoploss/blob/master/Architecture.png?raw=true)
 
-The Stoploss program is an onchain component. It communicates with the SRM DEX program. 
+The **STOPLOSS** program is an onchain component. It communicates with the SRM DEX program. 
 
-The Algo Server and Gui Server are off chain components responsible for continually scanning for new Stoploss orders and for executing when conditions are met
+The **ALGOSERVER** and Gui Server are off chain components responsible for continually scanning for new Stoploss orders and for executing when conditions are met
 
-The Algo UI is a component for managing stoplosses (and potentially other more complex order types)
+The **ALGO UI** is a component for managing stoplosses (and potentially other more complex order types)
 
-The Store is a Time Series database that captures market data and order details.
+The **STORE** is a Time Series database that captures market data and order details.
+
+The **MKT DATA** is a listener for market data updates responsible for sending orderbook updates.
+
+green components are the ones developed independantly. 
+blue components are existing project Serum components.
 
 ### Sequence Diagram
+
 
 ![alt text](https://github.com/teddytomas/stoploss/blob/master/stoploss-sequence.png?raw=true)
 
