@@ -43,7 +43,7 @@ The Store is a Time Series database that captures market data and order details.
 
 ### Sequence Diagram
 
-![alt text](https://github.com/teddytomas/stoploss/blob/master/Architecture.png?raw=true)
+![alt text](https://github.com/teddytomas/stoploss/blob/master/stoploss-sequence.png?raw=true)
 
 
 
