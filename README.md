@@ -31,6 +31,8 @@ This demo will show the architecture of on chain/off chain components, a sequenc
 
 ### ARCHITECTURE
 
+![alt text](https://github.com/teddytomas/stoploss/blob/master/Architecture.png?raw=true)
+
 
 
 
