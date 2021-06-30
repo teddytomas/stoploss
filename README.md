@@ -46,7 +46,7 @@ This demo will show the architecture of on chain/off chain components, a sequenc
 
 **MKT DATA** is a listener for market data updates responsible for sending orderbook updates.
 
-green components are the ones developed independantly.<br> 
+green components are the ones developed independently.<br> 
 blue components are existing project Serum components.
 
 ### Sequence Diagram
