@@ -1,6 +1,6 @@
 # Demo Stoploss implementation on Serum DEX
 
-**[TLDR skip to video demo](https://github.com/teddytomas/stoploss/blob/master/stoploss-demo.m4v)**
+**[TLDR skip to video demo](https://github.com/teddytomas/stoploss/blob/master/stoploss-demo.mp4)**
 
 
 Hi, thanks for reading this. First, what am I ?
@@ -58,7 +58,7 @@ blue components are existing project Serum components.
 
 ## The DEMO
 
-**[video demo](https://github.com/teddytomas/stoploss/blob/master/stoploss-demo.m4v)**
+**[video demo](https://github.com/teddytomas/stoploss/blob/master/stoploss-demo.mp4)**
 
 this shows a screen capture of placing a stoploss order in Serum DEX UI and having the components above do their thing to asynchronously execute an order.
 
